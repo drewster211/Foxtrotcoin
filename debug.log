@@ -1,0 +1,691 @@
+2015-05-29 12:32:17 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-05-29 12:32:17 FoxtrotCoin version v0.8.6.0-unk-beta (Mar 13 2015, 19:09:48)
+2015-05-29 12:32:17 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-05-29 12:32:17 Default data directory .
+2015-05-29 12:32:17 Using data directory .
+2015-05-29 12:32:17 Using at most 125 connections (2048 file descriptors available)
+2015-05-29 12:32:17 Using 2 threads for script verification
+2015-05-29 12:32:17 init message: Verifying wallet...
+2015-05-29 12:32:17 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-05-29 12:32:17 Bound to [::]:11040
+2015-05-29 12:32:18 Bound to 0.0.0.0:11040
+2015-05-29 12:32:18 init message: Loading block index...
+2015-05-29 12:32:18 Opening LevelDB in .\blocks\index
+2015-05-29 12:32:18 Opened LevelDB successfully
+2015-05-29 12:32:18 Opening LevelDB in .\chainstate
+2015-05-29 12:32:19 Opened LevelDB successfully
+2015-05-29 12:32:19 LoadBlockIndexDB(): last block file = 0
+2015-05-29 12:32:19 LoadBlockIndexDB(): transaction index disabled
+2015-05-29 12:32:19 Initializing databases...
+2015-05-29 12:32:19 00000000388892d09282d2d437ad5873406bcb7e5a62a619d0df08835ffb2b03
+2015-05-29 12:32:19 00000000388892d09282d2d437ad5873406bcb7e5a62a619d0df08835ffb2b03
+2015-05-29 12:32:19 a99c7c572f07503bb52506cc6bcc18a0653d78c9c34fd7b576fe093723554bac
+2015-05-29 12:32:19 CBlock(hash=00000000388892d09282d2d437ad5873406bcb7e5a62a619d0df08835ffb2b03, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=a99c7c572f07503bb52506cc6bcc18a0653d78c9c34fd7b576fe093723554bac, nTime=1431281009, nBits=1d00ffff, nNonce=1862045470, vtx=1)
+2015-05-29 12:32:19   CTransaction(hash=a99c7c572f07503bb52506cc6bcc18a0653d78c9c34fd7b576fe093723554bac, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01040d4d74676f7820697320646f776e)
+    CTxOut(nValue=50.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  vMerkleTree: a99c7c572f07503bb52506cc6bcc18a0653d78c9c34fd7b576fe093723554bac 
+2015-05-29 12:32:19 Pre-allocating up to position 0x1000000 in blk00000.dat
+2015-05-29 12:32:19 SetBestChain: new best=00000000388892d09282d2d437ad5873406bcb7e5a62a619d0df08835ffb2b03  height=0  log2_work=32.000022  tx=1  date=2015-05-10 18:03:29 progress=0.000000
+2015-05-29 12:32:19 init message: Verifying blocks...
+2015-05-29 12:32:19  block index            1240ms
+2015-05-29 12:32:19 init message: Loading wallet...
+2015-05-29 12:32:19 nFileVersion = 80600
+2015-05-29 12:32:19 Performing wallet upgrade to 60000
+2015-05-29 12:32:25 RandAddSeed() 226112 bytes
+2015-05-29 12:32:25 keypool added key 1, size=1
+2015-05-29 12:32:25 keypool added key 2, size=2
+2015-05-29 12:32:25 keypool added key 3, size=3
+2015-05-29 12:32:25 keypool added key 4, size=4
+2015-05-29 12:32:25 keypool added key 5, size=5
+2015-05-29 12:32:26 keypool added key 6, size=6
+2015-05-29 12:32:26 keypool added key 7, size=7
+2015-05-29 12:32:26 keypool added key 8, size=8
+2015-05-29 12:32:26 keypool added key 9, size=9
+2015-05-29 12:32:26 keypool added key 10, size=10
+2015-05-29 12:32:26 keypool added key 11, size=11
+2015-05-29 12:32:26 keypool added key 12, size=12
+2015-05-29 12:32:26 keypool added key 13, size=13
+2015-05-29 12:32:26 keypool added key 14, size=14
+2015-05-29 12:32:26 keypool added key 15, size=15
+2015-05-29 12:32:26 keypool added key 16, size=16
+2015-05-29 12:32:27 keypool added key 17, size=17
+2015-05-29 12:32:27 keypool added key 18, size=18
+2015-05-29 12:32:27 keypool added key 19, size=19
+2015-05-29 12:32:27 keypool added key 20, size=20
+2015-05-29 12:32:27 keypool added key 21, size=21
+2015-05-29 12:32:27 keypool added key 22, size=22
+2015-05-29 12:32:27 keypool added key 23, size=23
+2015-05-29 12:32:27 keypool added key 24, size=24
+2015-05-29 12:32:27 keypool added key 25, size=25
+2015-05-29 12:32:27 keypool added key 26, size=26
+2015-05-29 12:32:27 keypool added key 27, size=27
+2015-05-29 12:32:27 keypool added key 28, size=28
+2015-05-29 12:32:28 keypool added key 29, size=29
+2015-05-29 12:32:28 keypool added key 30, size=30
+2015-05-29 12:32:28 keypool added key 31, size=31
+2015-05-29 12:32:28 keypool added key 32, size=32
+2015-05-29 12:32:28 keypool added key 33, size=33
+2015-05-29 12:32:28 keypool added key 34, size=34
+2015-05-29 12:32:28 keypool added key 35, size=35
+2015-05-29 12:32:28 keypool added key 36, size=36
+2015-05-29 12:32:28 keypool added key 37, size=37
+2015-05-29 12:32:28 keypool added key 38, size=38
+2015-05-29 12:32:28 keypool added key 39, size=39
+2015-05-29 12:32:28 keypool added key 40, size=40
+2015-05-29 12:32:29 keypool added key 41, size=41
+2015-05-29 12:32:29 keypool added key 42, size=42
+2015-05-29 12:32:29 keypool added key 43, size=43
+2015-05-29 12:32:29 keypool added key 44, size=44
+2015-05-29 12:32:29 keypool added key 45, size=45
+2015-05-29 12:32:29 keypool added key 46, size=46
+2015-05-29 12:32:29 keypool added key 47, size=47
+2015-05-29 12:32:29 keypool added key 48, size=48
+2015-05-29 12:32:29 keypool added key 49, size=49
+2015-05-29 12:32:29 keypool added key 50, size=50
+2015-05-29 12:32:29 keypool added key 51, size=51
+2015-05-29 12:32:29 keypool added key 52, size=52
+2015-05-29 12:32:30 keypool added key 53, size=53
+2015-05-29 12:32:30 keypool added key 54, size=54
+2015-05-29 12:32:30 keypool added key 55, size=55
+2015-05-29 12:32:30 keypool added key 56, size=56
+2015-05-29 12:32:30 keypool added key 57, size=57
+2015-05-29 12:32:30 keypool added key 58, size=58
+2015-05-29 12:32:30 keypool added key 59, size=59
+2015-05-29 12:32:30 keypool added key 60, size=60
+2015-05-29 12:32:30 keypool added key 61, size=61
+2015-05-29 12:32:31 keypool added key 62, size=62
+2015-05-29 12:32:31 keypool added key 63, size=63
+2015-05-29 12:32:31 keypool added key 64, size=64
+2015-05-29 12:32:31 keypool added key 65, size=65
+2015-05-29 12:32:31 keypool added key 66, size=66
+2015-05-29 12:32:31 keypool added key 67, size=67
+2015-05-29 12:32:31 keypool added key 68, size=68
+2015-05-29 12:32:31 keypool added key 69, size=69
+2015-05-29 12:32:31 keypool added key 70, size=70
+2015-05-29 12:32:31 keypool added key 71, size=71
+2015-05-29 12:32:32 keypool added key 72, size=72
+2015-05-29 12:32:32 keypool added key 73, size=73
+2015-05-29 12:32:32 keypool added key 74, size=74
+2015-05-29 12:32:32 keypool added key 75, size=75
+2015-05-29 12:32:32 keypool added key 76, size=76
+2015-05-29 12:32:32 keypool added key 77, size=77
+2015-05-29 12:32:32 keypool added key 78, size=78
+2015-05-29 12:32:32 keypool added key 79, size=79
+2015-05-29 12:32:32 keypool added key 80, size=80
+2015-05-29 12:32:32 keypool added key 81, size=81
+2015-05-29 12:32:32 keypool added key 82, size=82
+2015-05-29 12:32:33 keypool added key 83, size=83
+2015-05-29 12:32:33 keypool added key 84, size=84
+2015-05-29 12:32:33 keypool added key 85, size=85
+2015-05-29 12:32:33 keypool added key 86, size=86
+2015-05-29 12:32:33 keypool added key 87, size=87
+2015-05-29 12:32:33 keypool added key 88, size=88
+2015-05-29 12:32:33 keypool added key 89, size=89
+2015-05-29 12:32:33 keypool added key 90, size=90
+2015-05-29 12:32:33 keypool added key 91, size=91
+2015-05-29 12:32:34 keypool added key 92, size=92
+2015-05-29 12:32:34 keypool added key 93, size=93
+2015-05-29 12:32:34 keypool added key 94, size=94
+2015-05-29 12:32:34 keypool added key 95, size=95
+2015-05-29 12:32:34 keypool added key 96, size=96
+2015-05-29 12:32:34 keypool added key 97, size=97
+2015-05-29 12:32:34 keypool added key 98, size=98
+2015-05-29 12:32:35 keypool added key 99, size=99
+2015-05-29 12:32:35 keypool added key 100, size=100
+2015-05-29 12:32:35 keypool added key 101, size=101
+2015-05-29 12:32:35 keypool reserve 1
+2015-05-29 12:32:35 keypool keep 1
+2015-05-29 12:32:36  wallet                16758ms
+2015-05-29 12:32:36 init message: Loading addresses...
+2015-05-29 12:32:36 ERROR: CAddrman::Read() : open failed
+2015-05-29 12:32:36 Invalid or missing peers.dat; recreating
+2015-05-29 12:32:36 Loaded 0 addresses from peers.dat  5ms
+2015-05-29 12:32:36 mapBlockIndex.size() = 1
+2015-05-29 12:32:36 nBestHeight = 0
+2015-05-29 12:32:36 setKeyPool.size() = 100
+2015-05-29 12:32:36 mapWallet.size() = 0
+2015-05-29 12:32:36 mapAddressBook.size() = 1
+2015-05-29 12:32:36 AddLocal([2001:0:5ef5:79fd:144b:3f4:a535:8022]:11040,1)
+2015-05-29 12:32:36 dnsseed thread start
+2015-05-29 12:32:36 init message: Done loading
+2015-05-29 12:32:36 net thread start
+2015-05-29 12:32:36 addcon thread start
+2015-05-29 12:32:36 opencon thread start
+2015-05-29 12:32:36 msghand thread start
+2015-05-29 12:32:36 dumpaddr thread start
+2015-05-29 12:32:36 Loading addresses from DNS seeds (could take a while)
+2015-05-29 12:32:36 0 addresses found from DNS seeds
+2015-05-29 12:32:36 dnsseed thread exit
+2015-05-29 12:32:36 trying connection 52.16.23.106:11040 lastseen=370250.8hrs
+2015-05-29 12:32:36 refreshWallet
+2015-05-29 12:32:36 connected 52.16.23.106:11040
+2015-05-29 12:32:36 send version message: version 70001, blocks=0, us=[2001:0:5ef5:79fd:144b:3f4:a535:8022]:11040, them=52.16.23.106:11040, peer=52.16.23.106:11040
+2015-05-29 12:32:36 Added time data, samples 2, offset +15 (+0 minutes)
+2015-05-29 12:32:36 receive version message: /Satoshi:0.8.6/: version 70001, blocks=0, us=90.202.127.221:49381, them=52.16.23.106:11040, peer=52.16.23.106:11040
+2015-05-29 12:32:36 Added 1 addresses from 52.16.23.106: 0 tried, 1 new
+2015-05-29 12:32:36 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-05-29 12:32:36 Added 138 addresses from 52.16.23.106: 0 tried, 139 new
+2015-05-29 12:32:36 GetMyExternalIP() received [90.202.127.221] 90.202.127.221:0
+2015-05-29 12:32:36 GetMyExternalIP() returned 90.202.127.221
+2015-05-29 12:32:36 AddLocal(90.202.127.221:11040,4)
+2015-05-29 12:32:36 trying connection 80.150.109.207:11040 lastseen=560.7hrs
+2015-05-29 12:32:41 connection timeout
+2015-05-29 12:32:42 trying connection 188.134.4.144:11040 lastseen=577.4hrs
+2015-05-29 12:32:47 connection timeout
+2015-05-29 12:32:47 trying connection 212.85.167.182:11040 lastseen=517.9hrs
+2015-05-29 12:32:52 connection timeout
+2015-05-29 12:32:53 trying connection 91.121.62.221:11040 lastseen=526.2hrs
+2015-05-29 12:32:57 FoxtrotCoinMiner started
+2015-05-29 12:32:57 FoxtrotCoinMiner started
+2015-05-29 12:32:57 keypool added key 102, size=101
+2015-05-29 12:32:57 keypool reserve 2
+2015-05-29 12:32:57 CreateNewBlock(): total size 1000
+2015-05-29 12:32:57 Running FoxtrotCoinMiner with 1 transactions in block (186 bytes)
+2015-05-29 12:32:57 keypool added key 103, size=101
+2015-05-29 12:32:57 keypool reserve 3
+2015-05-29 12:32:57 CreateNewBlock(): total size 1000
+2015-05-29 12:32:57 Running FoxtrotCoinMiner with 1 transactions in block (186 bytes)
+2015-05-29 12:32:58 connection timeout
+2015-05-29 12:32:58 trying connection 31.169.66.66:11040 lastseen=655.8hrs
+2015-05-29 12:32:59 Flushing wallet.dat
+2015-05-29 12:32:59 Flushed wallet.dat 177ms
+2015-05-29 12:33:01 hashmeter    523 khash/s
+2015-05-29 12:33:03 connection timeout
+2015-05-29 12:33:04 trying connection 206.111.48.28:11040 lastseen=594.2hrs
+2015-05-29 12:33:09 connection timeout
+2015-05-29 12:33:09 trying connection 199.71.213.231:11040 lastseen=538.3hrs
+2015-05-29 12:33:14 connection timeout
+2015-05-29 12:33:15 trying connection 117.55.210.133:11040 lastseen=638.0hrs
+2015-05-29 12:33:20 connection timeout
+2015-05-29 12:33:20 trying connection 71.20.177.34:11040 lastseen=657.9hrs
+2015-05-29 12:33:25 connection timeout
+2015-05-29 12:33:26 trying connection 87.117.193.76:11040 lastseen=568.9hrs
+2015-05-29 12:33:31 connection timeout
+2015-05-29 12:33:32 trying connection 5.199.170.24:11040 lastseen=597.7hrs
+2015-05-29 12:33:37 connection timeout
+2015-05-29 12:33:37 trying connection 50.16.70.150:11040 lastseen=612.6hrs
+2015-05-29 12:33:42 connection timeout
+2015-05-29 12:33:43 trying connection 176.10.36.170:11040 lastseen=629.9hrs
+2015-05-29 12:33:48 connection timeout
+2015-05-29 12:33:49 trying connection 131.191.12.26:11040 lastseen=642.4hrs
+2015-05-29 12:33:54 connection timeout
+2015-05-29 12:33:54 trying connection 117.55.210.133:11040 lastseen=638.1hrs
+2015-05-29 12:33:59 connection timeout
+2015-05-29 12:34:00 trying connection 178.33.83.15:11040 lastseen=617.1hrs
+2015-05-29 12:34:05 connection timeout
+2015-05-29 12:34:06 trying connection 5.9.75.132:11040 lastseen=515.9hrs
+2015-05-29 12:34:11 connection timeout
+2015-05-29 12:34:12 trying connection 99.135.104.51:11040 lastseen=580.6hrs
+2015-05-29 12:34:17 connection timeout
+2015-05-29 12:34:18 trying connection 69.42.0.24:11040 lastseen=573.6hrs
+2015-05-29 12:34:23 connection timeout
+2015-05-29 12:34:24 trying connection 46.253.203.98:11040 lastseen=633.8hrs
+2015-05-29 12:34:29 connection timeout
+2015-05-29 12:34:29 trying connection 129.244.86.202:11040 lastseen=579.6hrs
+2015-05-29 12:34:34 connection timeout
+2015-05-29 12:34:35 trying connection 24.163.74.41:11040 lastseen=557.7hrs
+2015-05-29 12:34:40 connection timeout
+2015-05-29 12:34:40 trying connection 93.74.162.249:11040 lastseen=524.0hrs
+2015-05-29 12:34:45 connection timeout
+2015-05-29 12:34:46 trying connection 75.73.70.14:11040 lastseen=584.4hrs
+2015-05-29 12:34:51 connection timeout
+2015-05-29 12:34:51 trying connection 76.73.57.126:11040 lastseen=663.4hrs
+2015-05-29 12:34:56 connection timeout
+2015-05-29 12:34:57 trying connection 78.46.49.61:11040 lastseen=531.8hrs
+2015-05-29 12:35:02 connection timeout
+2015-05-29 12:35:02 trying connection 88.198.11.51:11040 lastseen=621.9hrs
+2015-05-29 12:35:07 connection timeout
+2015-05-29 12:35:08 trying connection 108.166.85.162:11040 lastseen=567.4hrs
+2015-05-29 12:35:13 connection timeout
+2015-05-29 12:35:14 trying connection 66.114.33.250:11040 lastseen=576.9hrs
+2015-05-29 12:35:19 connection timeout
+2015-05-29 12:35:19 trying connection 216.119.158.178:11040 lastseen=643.5hrs
+2015-05-29 12:35:24 connection timeout
+2015-05-29 12:35:25 trying connection 66.45.250.234:11040 lastseen=665.6hrs
+2015-05-29 12:35:30 connection timeout
+2015-05-29 12:35:30 trying connection 91.109.4.16:11040 lastseen=621.6hrs
+2015-05-29 12:35:35 connection timeout
+2015-05-29 12:35:36 trying connection 24.209.186.95:11040 lastseen=538.8hrs
+2015-05-29 12:35:41 connection timeout
+2015-05-29 12:35:41 trying connection 80.74.122.77:11040 lastseen=584.1hrs
+2015-05-29 12:35:46 connection timeout
+2015-05-29 12:35:47 trying connection 88.198.41.67:11040 lastseen=646.2hrs
+2015-05-29 12:35:52 connection timeout
+2015-05-29 12:35:52 trying connection 71.10.104.78:11040 lastseen=515.7hrs
+2015-05-29 12:35:57 connection timeout
+2015-05-29 12:35:58 trying connection 178.33.83.15:11040 lastseen=617.1hrs
+2015-05-29 12:36:03 connection timeout
+2015-05-29 12:36:04 trying connection 99.135.104.51:11040 lastseen=580.7hrs
+2015-05-29 12:36:09 connection timeout
+2015-05-29 12:36:09 trying connection 81.177.25.71:11040 lastseen=582.1hrs
+2015-05-29 12:36:14 connection timeout
+2015-05-29 12:36:15 trying connection 87.117.193.76:11040 lastseen=569.0hrs
+2015-05-29 12:36:20 connection timeout
+2015-05-29 12:36:20 trying connection 66.41.26.158:11040 lastseen=513.5hrs
+2015-05-29 12:36:25 connection timeout
+2015-05-29 12:36:26 trying connection 106.187.52.100:11040 lastseen=591.4hrs
+2015-05-29 12:36:31 connection timeout
+2015-05-29 12:36:31 trying connection 59.157.2.114:11040 lastseen=593.3hrs
+2015-05-29 12:36:36 connection timeout
+2015-05-29 12:36:37 trying connection 60.242.150.68:11040 lastseen=580.1hrs
+2015-05-29 12:36:42 connection timeout
+2015-05-29 12:36:43 trying connection 60.242.150.68:11040 lastseen=580.1hrs
+2015-05-29 12:36:48 connection timeout
+2015-05-29 12:36:49 trying connection 178.75.32.253:11040 lastseen=655.2hrs
+2015-05-29 12:36:54 connection timeout
+2015-05-29 12:36:54 trying connection 75.150.104.17:11040 lastseen=625.9hrs
+2015-05-29 12:36:59 connection timeout
+2015-05-29 12:37:00 trying connection 71.224.6.173:11040 lastseen=571.6hrs
+2015-05-29 12:37:05 connection timeout
+2015-05-29 12:37:05 trying connection 178.33.83.15:11040 lastseen=617.2hrs
+2015-05-29 12:37:10 connection timeout
+2015-05-29 12:37:11 trying connection 71.10.104.78:11040 lastseen=515.7hrs
+2015-05-29 12:37:16 connection timeout
+2015-05-29 12:37:16 trying connection 5.199.170.24:11040 lastseen=597.8hrs
+2015-05-29 12:37:21 connection timeout
+2015-05-29 12:37:22 trying connection 46.253.203.98:11040 lastseen=633.9hrs
+2015-05-29 12:37:27 connection timeout
+2015-05-29 12:37:27 trying connection 46.4.115.228:11040 lastseen=560.3hrs
+2015-05-29 12:37:32 connection timeout
+2015-05-29 12:37:33 trying connection 78.129.236.141:11040 lastseen=665.4hrs
+2015-05-29 12:37:38 connection timeout
+2015-05-29 12:37:39 trying connection 83.254.81.30:11040 lastseen=647.0hrs
+2015-05-29 12:37:44 connection timeout
+2015-05-29 12:37:44 trying connection 115.187.242.125:11040 lastseen=535.8hrs
+2015-05-29 12:37:49 connection timeout
+2015-05-29 12:37:50 trying connection 188.134.4.144:11040 lastseen=577.5hrs
+2015-05-29 12:37:55 connection timeout
+2015-05-29 12:37:55 trying connection 78.47.187.253:11040 lastseen=548.4hrs
+2015-05-29 12:38:00 connection timeout
+2015-05-29 12:38:01 trying connection 106.187.52.100:11040 lastseen=591.4hrs
+2015-05-29 12:38:06 connection timeout
+2015-05-29 12:38:07 trying connection 199.71.213.231:11040 lastseen=538.4hrs
+2015-05-29 12:38:12 connection timeout
+2015-05-29 12:38:12 trying connection 60.242.150.68:11040 lastseen=580.1hrs
+2015-05-29 12:38:17 connection timeout
+2015-05-29 12:38:17 net thread interrupt
+2015-05-29 12:38:17 opencon thread interrupt
+2015-05-29 12:38:17 msghand thread interrupt
+2015-05-29 12:38:17 addcon thread interrupt
+2015-05-29 12:38:17 dumpaddr thread stop
+2015-05-29 12:38:17 Shutdown : In progress...
+2015-05-29 12:38:17 Flush(false)
+2015-05-29 12:38:17 DBFlush(false) ended               2ms
+2015-05-29 12:38:17 StopNode()
+2015-05-29 12:38:17 FoxtrotCoinMiner terminated
+2015-05-29 12:38:17 keypool return 3
+2015-05-29 12:38:17 FoxtrotCoinMiner terminated
+2015-05-29 12:38:17 keypool return 2
+2015-05-29 12:38:17 Flushed 139 addresses to peers.dat  103ms
+2015-05-29 12:38:18 Committing 0 changed transactions to coin database...
+2015-05-29 12:38:18 Flush(true)
+2015-05-29 12:38:18 wallet.dat refcount=0
+2015-05-29 12:38:18 wallet.dat checkpoint
+2015-05-29 12:38:18 wallet.dat detach
+2015-05-29 12:38:18 wallet.dat closed
+2015-05-29 12:38:18 DBFlush(true) ended             153ms
+2015-05-29 12:38:18 Shutdown : done
+2015-05-29 12:38:29 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2015-05-29 12:38:29 FoxtrotCoin version v0.8.6.0-unk-beta (Mar 13 2015, 19:09:48)
+2015-05-29 12:38:29 Using OpenSSL version OpenSSL 1.0.1g 7 Apr 2014
+2015-05-29 12:38:29 Default data directory .
+2015-05-29 12:38:29 Using data directory .
+2015-05-29 12:38:29 Using at most 125 connections (2048 file descriptors available)
+2015-05-29 12:38:29 Using 2 threads for script verification
+2015-05-29 12:38:29 init message: Verifying wallet...
+2015-05-29 12:38:29 dbenv.open LogDir=.\database ErrorFile=.\db.log
+2015-05-29 12:38:29 Bound to [::]:11040
+2015-05-29 12:38:29 Bound to 0.0.0.0:11040
+2015-05-29 12:38:29 init message: Loading block index...
+2015-05-29 12:38:29 Opening LevelDB in .\blocks\index
+2015-05-29 12:38:29 Opened LevelDB successfully
+2015-05-29 12:38:29 Opening LevelDB in .\chainstate
+2015-05-29 12:38:29 Opened LevelDB successfully
+2015-05-29 12:38:29 LoadBlockIndexDB(): last block file = 0
+2015-05-29 12:38:29 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2015-05-10...2015-05-10)
+2015-05-29 12:38:29 LoadBlockIndexDB(): transaction index disabled
+2015-05-29 12:38:29 LoadBlockIndexDB(): hashBestChain=00000000388892d09282d2d437ad5873406bcb7e5a62a619d0df08835ffb2b03  height=0 date=2015-05-10 18:03:29
+2015-05-29 12:38:29 init message: Verifying blocks...
+2015-05-29 12:38:29  block index             211ms
+2015-05-29 12:38:29 init message: Loading wallet...
+2015-05-29 12:38:31 nFileVersion = 80600
+2015-05-29 12:38:31  wallet                 1835ms
+2015-05-29 12:38:31 init message: Loading addresses...
+2015-05-29 12:38:31 Loaded 139 addresses from peers.dat  2ms
+2015-05-29 12:38:33 RandAddSeed() 211016 bytes
+2015-05-29 12:38:33 mapBlockIndex.size() = 1
+2015-05-29 12:38:33 nBestHeight = 0
+2015-05-29 12:38:33 setKeyPool.size() = 102
+2015-05-29 12:38:33 mapWallet.size() = 0
+2015-05-29 12:38:33 mapAddressBook.size() = 1
+2015-05-29 12:38:33 AddLocal([2001:0:5ef5:79fd:144b:3f4:a535:8022]:11040,1)
+2015-05-29 12:38:33 dnsseed thread start
+2015-05-29 12:38:33 Loading addresses from DNS seeds (could take a while)
+2015-05-29 12:38:33 net thread start
+2015-05-29 12:38:33 addcon thread start
+2015-05-29 12:38:33 0 addresses found from DNS seeds
+2015-05-29 12:38:33 dnsseed thread exit
+2015-05-29 12:38:33 msghand thread start
+2015-05-29 12:38:33 dumpaddr thread start
+2015-05-29 12:38:33 init message: Done loading
+2015-05-29 12:38:33 trying connection 52.16.23.106:11040 lastseen=370250.9hrs
+2015-05-29 12:38:33 opencon thread start
+2015-05-29 12:38:33 refreshWallet
+2015-05-29 12:38:33 connected 52.16.23.106:11040
+2015-05-29 12:38:33 send version message: version 70001, blocks=0, us=[2001:0:5ef5:79fd:144b:3f4:a535:8022]:11040, them=52.16.23.106:11040, peer=52.16.23.106:11040
+2015-05-29 12:38:33 Added time data, samples 2, offset +15 (+0 minutes)
+2015-05-29 12:38:33 Moving 52.16.23.106:11040 to tried
+2015-05-29 12:38:33 receive version message: /Satoshi:0.8.6/: version 70001, blocks=0, us=90.202.127.221:49627, them=52.16.23.106:11040, peer=52.16.23.106:11040
+2015-05-29 12:38:33 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2015-05-29 12:38:33 GetMyExternalIP() received [90.202.127.221] 90.202.127.221:0
+2015-05-29 12:38:33 GetMyExternalIP() returned 90.202.127.221
+2015-05-29 12:38:33 AddLocal(90.202.127.221:11040,4)
+2015-05-29 12:38:34 trying connection 132.180.21.123:11040 lastseen=569.0hrs
+2015-05-29 12:38:34 Added 107 addresses from 52.16.23.106: 1 tried, 245 new
+2015-05-29 12:38:39 connection timeout
+2015-05-29 12:38:39 trying connection 89.30.48.213:11040 lastseen=538.1hrs
+2015-05-29 12:38:44 connection timeout
+2015-05-29 12:38:45 trying connection 213.171.43.151:11040 lastseen=513.1hrs
+2015-05-29 12:38:50 connection timeout
+2015-05-29 12:38:51 trying connection 89.93.196.39:11040 lastseen=576.1hrs
+2015-05-29 12:38:56 connection timeout
+2015-05-29 12:38:56 trying connection 66.45.250.234:11040 lastseen=665.7hrs
+2015-05-29 12:39:01 connection timeout
+2015-05-29 12:39:02 trying connection 78.46.49.61:11040 lastseen=531.9hrs
+2015-05-29 12:39:07 connection timeout
+2015-05-29 12:39:07 trying connection 75.73.70.14:11040 lastseen=584.5hrs
+2015-05-29 12:39:12 connection timeout
+2015-05-29 12:39:13 trying connection 62.75.209.64:11040 lastseen=654.1hrs
+2015-05-29 12:39:18 connection timeout
+2015-05-29 12:39:18 trying connection 108.60.150.144:11040 lastseen=643.6hrs
+2015-05-29 12:39:23 connection timeout
+2015-05-29 12:39:24 trying connection 46.150.99.47:11040 lastseen=534.8hrs
+2015-05-29 12:39:29 connection timeout
+2015-05-29 12:39:29 trying connection 68.234.25.2:11040 lastseen=610.3hrs
+2015-05-29 12:39:34 connection timeout
+2015-05-29 12:39:36 trying connection 213.171.43.151:11040 lastseen=513.2hrs
+2015-05-29 12:39:41 connection timeout
+2015-05-29 12:39:42 trying connection 91.121.62.221:11040 lastseen=526.4hrs
+2015-05-29 12:39:47 connection timeout
+2015-05-29 12:39:48 trying connection 108.60.150.144:11040 lastseen=643.6hrs
+2015-05-29 12:39:53 connection timeout
+2015-05-29 12:39:53 trying connection 80.74.122.77:11040 lastseen=584.1hrs
+2015-05-29 12:39:58 connection timeout
+2015-05-29 12:39:59 trying connection 83.149.112.133:11040 lastseen=637.6hrs
+2015-05-29 12:40:04 connection timeout
+2015-05-29 12:40:04 trying connection 142.176.115.192:11040 lastseen=671.5hrs
+2015-05-29 12:40:09 connection timeout
+2015-05-29 12:40:10 trying connection 188.165.229.169:11040 lastseen=567.7hrs
+2015-05-29 12:40:15 connection timeout
+2015-05-29 12:40:16 trying connection 75.73.70.14:11040 lastseen=584.5hrs
+2015-05-29 12:40:21 connection timeout
+2015-05-29 12:40:21 trying connection 60.242.150.68:11040 lastseen=580.1hrs
+2015-05-29 12:40:26 connection timeout
+2015-05-29 12:40:27 trying connection 94.242.209.124:11040 lastseen=652.1hrs
+2015-05-29 12:40:32 connection timeout
+2015-05-29 12:40:33 trying connection 192.198.93.133:11040 lastseen=515.6hrs
+2015-05-29 12:40:38 connection timeout
+2015-05-29 12:40:39 trying connection 106.187.52.100:11040 lastseen=591.4hrs
+2015-05-29 12:40:44 connection timeout
+2015-05-29 12:40:44 trying connection 129.244.86.203:11040 lastseen=620.0hrs
+2015-05-29 12:40:49 connection timeout
+2015-05-29 12:40:50 trying connection 91.205.173.74:11040 lastseen=638.5hrs
+2015-05-29 12:40:55 connection timeout
+2015-05-29 12:40:56 trying connection 71.10.104.78:11040 lastseen=515.8hrs
+2015-05-29 12:41:01 connection timeout
+2015-05-29 12:41:02 trying connection 24.87.65.70:11040 lastseen=633.8hrs
+2015-05-29 12:41:07 connection timeout
+2015-05-29 12:41:07 trying connection 83.177.185.26:11040 lastseen=555.0hrs
+2015-05-29 12:41:12 connection timeout
+2015-05-29 12:41:13 trying connection 71.6.200.57:11040 lastseen=547.5hrs
+2015-05-29 12:41:18 connection timeout
+2015-05-29 12:41:18 trying connection 96.246.238.189:11040 lastseen=675.2hrs
+2015-05-29 12:41:23 connection timeout
+2015-05-29 12:41:24 trying connection 66.205.209.74:11040 lastseen=632.1hrs
+2015-05-29 12:41:29 connection timeout
+2015-05-29 12:41:29 trying connection 84.31.190.101:11040 lastseen=674.8hrs
+2015-05-29 12:41:34 connection timeout
+2015-05-29 12:41:35 trying connection 50.57.72.201:11040 lastseen=575.8hrs
+2015-05-29 12:41:40 connection timeout
+2015-05-29 12:41:40 trying connection 76.107.232.116:11040 lastseen=668.7hrs
+2015-05-29 12:41:45 connection timeout
+2015-05-29 12:41:46 trying connection 176.9.158.75:11040 lastseen=605.1hrs
+2015-05-29 12:41:51 connection timeout
+2015-05-29 12:41:51 trying connection 107.192.216.200:11040 lastseen=630.0hrs
+2015-05-29 12:41:56 connection timeout
+2015-05-29 12:41:57 trying connection 88.190.42.92:11040 lastseen=566.0hrs
+2015-05-29 12:42:02 connection timeout
+2015-05-29 12:42:03 trying connection 24.112.42.222:11040 lastseen=649.7hrs
+2015-05-29 12:42:08 connection timeout
+2015-05-29 12:42:08 trying connection 138.26.117.20:11040 lastseen=627.9hrs
+2015-05-29 12:42:13 connection timeout
+2015-05-29 12:42:14 trying connection 94.242.209.124:11040 lastseen=652.1hrs
+2015-05-29 12:42:14 ResendWalletTransactions()
+2015-05-29 12:42:19 connection timeout
+2015-05-29 12:42:20 trying connection 88.190.42.92:11040 lastseen=566.0hrs
+2015-05-29 12:42:25 connection timeout
+2015-05-29 12:42:26 trying connection 89.30.48.213:11040 lastseen=538.2hrs
+2015-05-29 12:42:31 connection timeout
+2015-05-29 12:42:31 FoxtrotCoinMiner started
+2015-05-29 12:42:31 FoxtrotCoinMiner started
+2015-05-29 12:42:31 keypool reserve 2
+2015-05-29 12:42:31 CreateNewBlock(): total size 1000
+2015-05-29 12:42:31 Running FoxtrotCoinMiner with 1 transactions in block (186 bytes)
+2015-05-29 12:42:31 keypool reserve 3
+2015-05-29 12:42:31 CreateNewBlock(): total size 1000
+2015-05-29 12:42:31 Running FoxtrotCoinMiner with 1 transactions in block (186 bytes)
+2015-05-29 12:42:31 trying connection 62.75.209.64:11040 lastseen=654.1hrs
+2015-05-29 12:42:35 hashmeter    425 khash/s
+2015-05-29 12:42:36 connection timeout
+2015-05-29 12:42:37 trying connection 129.244.86.202:11040 lastseen=579.8hrs
+2015-05-29 12:42:42 connection timeout
+2015-05-29 12:42:42 trying connection 62.112.194.92:11040 lastseen=562.2hrs
+2015-05-29 12:42:47 connection timeout
+2015-05-29 12:42:48 trying connection 80.74.122.77:11040 lastseen=584.2hrs
+2015-05-29 12:42:53 connection timeout
+2015-05-29 12:42:53 trying connection 98.207.155.220:11040 lastseen=540.5hrs
+2015-05-29 12:42:58 connection timeout
+2015-05-29 12:42:59 trying connection 81.177.25.71:11040 lastseen=582.2hrs
+2015-05-29 12:43:04 connection timeout
+2015-05-29 12:43:05 trying connection 50.16.70.150:11040 lastseen=612.8hrs
+2015-05-29 12:43:10 connection timeout
+2015-05-29 12:43:11 trying connection 37.59.68.76:11040 lastseen=600.2hrs
+2015-05-29 12:43:16 connection timeout
+2015-05-29 12:43:16 trying connection 89.30.48.213:11040 lastseen=538.2hrs
+2015-05-29 12:43:21 connection timeout
+2015-05-29 12:43:22 trying connection 117.55.210.133:11040 lastseen=638.2hrs
+2015-05-29 12:43:27 connection timeout
+2015-05-29 12:43:27 trying connection 94.242.209.124:11040 lastseen=652.1hrs
+2015-05-29 12:43:32 connection timeout
+2015-05-29 12:43:33 trying connection 108.60.150.144:11040 lastseen=643.7hrs
+2015-05-29 12:43:38 connection timeout
+2015-05-29 12:43:38 trying connection 89.30.48.213:11040 lastseen=538.2hrs
+2015-05-29 12:43:43 connection timeout
+2015-05-29 12:43:44 trying connection 202.238.74.59:11040 lastseen=634.2hrs
+2015-05-29 12:43:49 connection timeout
+2015-05-29 12:43:49 trying connection 31.169.66.66:11040 lastseen=655.9hrs
+2015-05-29 12:43:54 connection timeout
+2015-05-29 12:43:55 trying connection 82.114.105.251:11040 lastseen=536.1hrs
+2015-05-29 12:44:00 connection timeout
+2015-05-29 12:44:01 trying connection 89.30.48.213:11040 lastseen=538.2hrs
+2015-05-29 12:44:06 connection timeout
+2015-05-29 12:44:07 trying connection 75.72.198.60:11040 lastseen=607.9hrs
+2015-05-29 12:44:12 connection timeout
+2015-05-29 12:44:12 trying connection 199.229.234.73:11040 lastseen=521.9hrs
+2015-05-29 12:44:17 connection timeout
+2015-05-29 12:44:18 trying connection 107.192.216.200:11040 lastseen=630.0hrs
+2015-05-29 12:44:23 connection timeout
+2015-05-29 12:44:23 trying connection 176.31.105.44:11040 lastseen=587.9hrs
+2015-05-29 12:44:28 connection timeout
+2015-05-29 12:44:29 trying connection 188.165.229.169:11040 lastseen=567.7hrs
+2015-05-29 12:44:34 connection timeout
+2015-05-29 12:44:35 trying connection 176.10.36.170:11040 lastseen=630.1hrs
+2015-05-29 12:44:40 connection timeout
+2015-05-29 12:44:40 trying connection 213.125.150.179:11040 lastseen=608.0hrs
+2015-05-29 12:44:45 connection timeout
+2015-05-29 12:44:46 trying connection 188.165.229.169:11040 lastseen=567.7hrs
+2015-05-29 12:44:51 connection timeout
+2015-05-29 12:44:52 trying connection 91.222.137.48:11040 lastseen=655.5hrs
+2015-05-29 12:44:57 connection timeout
+2015-05-29 12:44:57 trying connection 50.31.149.61:11040 lastseen=522.9hrs
+2015-05-29 12:45:02 connection timeout
+2015-05-29 12:45:03 trying connection 199.229.234.73:11040 lastseen=521.9hrs
+2015-05-29 12:45:08 connection timeout
+2015-05-29 12:45:09 trying connection 91.121.62.221:11040 lastseen=526.5hrs
+2015-05-29 12:45:14 connection timeout
+2015-05-29 12:45:14 trying connection 195.225.156.99:11040 lastseen=646.4hrs
+2015-05-29 12:45:19 connection timeout
+2015-05-29 12:45:20 trying connection 96.229.144.99:11040 lastseen=562.7hrs
+2015-05-29 12:45:25 connection timeout
+2015-05-29 12:45:26 trying connection 200.74.242.68:11040 lastseen=638.5hrs
+2015-05-29 12:45:31 connection timeout
+2015-05-29 12:45:31 trying connection 83.149.112.133:11040 lastseen=637.7hrs
+2015-05-29 12:45:36 connection timeout
+2015-05-29 12:45:37 trying connection 59.167.117.97:11040 lastseen=556.6hrs
+2015-05-29 12:45:42 connection timeout
+2015-05-29 12:45:42 trying connection 75.72.198.60:11040 lastseen=608.0hrs
+2015-05-29 12:45:47 connection timeout
+2015-05-29 12:45:48 trying connection 109.90.46.71:11040 lastseen=640.2hrs
+2015-05-29 12:45:53 connection timeout
+2015-05-29 12:45:53 trying connection 131.191.12.26:11040 lastseen=642.6hrs
+2015-05-29 12:45:58 connection timeout
+2015-05-29 12:45:59 trying connection 199.229.234.73:11040 lastseen=521.9hrs
+2015-05-29 12:46:04 connection timeout
+2015-05-29 12:46:04 trying connection 71.87.115.78:11040 lastseen=525.3hrs
+2015-05-29 12:46:09 connection timeout
+2015-05-29 12:46:10 trying connection 192.198.93.133:11040 lastseen=515.7hrs
+2015-05-29 12:46:15 connection timeout
+2015-05-29 12:46:16 trying connection 75.150.104.17:11040 lastseen=626.1hrs
+2015-05-29 12:46:21 connection timeout
+2015-05-29 12:46:21 trying connection 88.198.7.53:11040 lastseen=515.3hrs
+2015-05-29 12:46:26 connection timeout
+2015-05-29 12:46:27 trying connection 46.4.214.112:11040 lastseen=623.4hrs
+2015-05-29 12:46:32 connection timeout
+2015-05-29 12:46:32 trying connection 37.59.36.25:11040 lastseen=647.1hrs
+2015-05-29 12:46:37 connection timeout
+2015-05-29 12:46:38 trying connection 24.156.203.24:11040 lastseen=606.3hrs
+2015-05-29 12:46:43 connection timeout
+2015-05-29 12:46:43 trying connection 87.98.234.237:11040 lastseen=577.6hrs
+2015-05-29 12:46:48 connection timeout
+2015-05-29 12:46:49 trying connection 66.41.26.158:11040 lastseen=513.7hrs
+2015-05-29 12:46:54 connection timeout
+2015-05-29 12:46:54 trying connection 115.187.242.125:11040 lastseen=535.9hrs
+2015-05-29 12:46:59 connection timeout
+2015-05-29 12:47:00 trying connection 69.59.152.157:11040 lastseen=529.4hrs
+2015-05-29 12:47:05 connection timeout
+2015-05-29 12:47:05 trying connection 24.87.65.70:11040 lastseen=633.9hrs
+2015-05-29 12:47:10 connection timeout
+2015-05-29 12:47:11 trying connection 89.30.48.213:11040 lastseen=538.3hrs
+2015-05-29 12:47:16 connection timeout
+2015-05-29 12:47:16 trying connection 207.164.207.29:11040 lastseen=526.6hrs
+2015-05-29 12:47:22 connection timeout
+2015-05-29 12:47:22 trying connection 46.254.14.136:11040 lastseen=671.8hrs
+2015-05-29 12:47:27 connection timeout
+2015-05-29 12:47:28 trying connection 87.117.193.76:11040 lastseen=569.1hrs
+2015-05-29 12:47:33 connection timeout
+2015-05-29 12:47:33 trying connection 99.135.104.51:11040 lastseen=580.9hrs
+2015-05-29 12:47:38 connection timeout
+2015-05-29 12:47:39 trying connection 71.10.104.78:11040 lastseen=515.9hrs
+2015-05-29 12:47:44 connection timeout
+2015-05-29 12:47:45 trying connection 85.214.226.119:11040 lastseen=568.0hrs
+2015-05-29 12:47:50 connection timeout
+2015-05-29 12:47:50 trying connection 85.25.95.141:11040 lastseen=542.5hrs
+2015-05-29 12:47:55 connection timeout
+2015-05-29 12:47:56 trying connection 75.72.198.60:11040 lastseen=608.0hrs
+2015-05-29 12:48:01 connection timeout
+2015-05-29 12:48:02 trying connection 89.30.48.213:11040 lastseen=538.3hrs
+2015-05-29 12:48:07 connection timeout
+2015-05-29 12:48:07 trying connection 89.30.48.213:11040 lastseen=538.3hrs
+2015-05-29 12:48:12 connection timeout
+2015-05-29 12:48:13 trying connection 93.175.16.26:11040 lastseen=520.3hrs
+2015-05-29 12:48:18 connection timeout
+2015-05-29 12:48:18 trying connection 173.65.171.60:11040 lastseen=596.7hrs
+2015-05-29 12:48:23 connection timeout
+2015-05-29 12:48:24 trying connection 50.115.42.59:11040 lastseen=629.1hrs
+2015-05-29 12:48:29 connection timeout
+2015-05-29 12:48:29 trying connection 80.74.122.77:11040 lastseen=584.3hrs
+2015-05-29 12:48:34 connection timeout
+2015-05-29 12:48:35 trying connection 62.112.194.92:11040 lastseen=562.2hrs
+2015-05-29 12:48:40 connection timeout
+2015-05-29 12:48:40 trying connection 178.63.190.234:11040 lastseen=625.0hrs
+2015-05-29 12:48:45 connection timeout
+2015-05-29 12:48:46 trying connection 83.149.112.133:11040 lastseen=637.8hrs
+2015-05-29 12:48:51 connection timeout
+2015-05-29 12:48:52 trying connection 206.111.48.28:11040 lastseen=594.4hrs
+2015-05-29 12:48:57 connection timeout
+2015-05-29 12:48:57 trying connection 173.224.112.190:11040 lastseen=639.8hrs
+2015-05-29 12:49:02 connection timeout
+2015-05-29 12:49:03 trying connection 66.41.26.158:11040 lastseen=513.8hrs
+2015-05-29 12:49:08 connection timeout
+2015-05-29 12:49:09 trying connection 91.205.173.74:11040 lastseen=638.6hrs
+2015-05-29 12:49:14 connection timeout
+2015-05-29 12:49:15 trying connection 129.244.86.127:11040 lastseen=669.5hrs
+2015-05-29 12:49:20 connection timeout
+2015-05-29 12:49:20 trying connection 66.205.209.74:11040 lastseen=632.3hrs
+2015-05-29 12:49:25 connection timeout
+2015-05-29 12:49:26 trying connection 66.41.26.158:11040 lastseen=513.8hrs
+2015-05-29 12:49:31 connection timeout
+2015-05-29 12:49:53 dumpaddr thread stop
+2015-05-29 12:49:53 net thread interrupt
+2015-05-29 12:49:53 addcon thread interrupt
+2015-05-29 12:49:53 opencon thread interrupt
+2015-05-29 12:49:53 msghand thread interrupt
+2015-05-29 12:49:53 Shutdown : In progress...
+2015-05-29 12:49:53 Flush(false)
+2015-05-29 12:49:53 wallet.dat refcount=0
+2015-05-29 12:49:53 wallet.dat checkpoint
+2015-05-29 12:49:53 wallet.dat detach
+2015-05-29 12:49:53 wallet.dat closed
+2015-05-29 12:49:53 DBFlush(false) ended              72ms
+2015-05-29 12:49:53 StopNode()
+2015-05-29 12:49:53 FoxtrotCoinMiner terminated
+2015-05-29 12:49:53 keypool return 3
+2015-05-29 12:49:53 Flushed 246 addresses to peers.dat  64ms
+2015-05-29 12:49:53 
+
+************************
+EXCEPTION: St13runtime_error       
+CDB() : can't open database file wallet.dat, error 2       
+C:\Users\Scott\Downloads\winqt\foxtrotcoin-qt.exe in Runaway exception       
+
+2015-05-29 12:49:55 FoxtrotCoinMiner terminated
+2015-05-29 12:49:55 keypool return 2
